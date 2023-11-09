@@ -7,7 +7,11 @@ public class CibiPreferiti {
 		
 		System.out.println(favoriteFoods.length);
 		System.out.println(favoriteFoods[0]);
-		System.out.println(favoriteFoods[5]);
+		System.out.println(favoriteFoods[favoriteFoods.length - 1]);
+		
+		
+		// CIBO IN MEZZO AL ARRAY
+		System.out.println(favoriteFoods[favoriteFoods.length / 2 - 1] );
 
 	}
 
